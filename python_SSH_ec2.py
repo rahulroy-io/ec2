@@ -2,7 +2,7 @@ import paramiko
 key = paramiko.RSAKey.from_private_key_file("/temp/.pem")
 con = paramiko.SSHClient()
 con.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-host = 'ec2-13-59-191-70.us-east-2.compute.amazonaws.com'
+host = ''
 con.connect( hostname = host, username = "ec2_user", pkey = key )
 
 commands = [
