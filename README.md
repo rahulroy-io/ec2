@@ -1,2 +1,2 @@
 # EC2
-SSH EC2 using python
+SSH EC2 using python3
